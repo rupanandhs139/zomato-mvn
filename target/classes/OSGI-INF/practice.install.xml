@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.2.0">
+    <scr:component immediate="true" name="practice.install">
+        <implementation class="practice.install"/>
+        <property name="camelContextId" value="zomato"/>
+        <property name="camelRouteId" value="foo/timer-log"/>
+        <property name="active" value="true"/>
+        <property name="from" value="timer:foo?period=5000"/>
+        <property name="to" value="log:foo?showHeaders=true"/>
+        <property name="messageOk" value="Success: {{from}} -&gt; {{to}}"/>
+        <property name="messageError" value="Failure: {{from}} -&gt; {{to}}"/>
+        <property name="maximumRedeliveries" value="0"/>
+        <property name="redeliveryDelay" value="5000"/>
+        <property name="backOffMultiplier" value="2"/>
+        <property name="maximumRedeliveryDelay" value="60000"/>
+        <property name="service.pid" value="practice.install"/>
+        <reference name="camelComponent" interface="org.apache.camel.spi.ComponentResolver" cardinality="1..n" policy="dynamic" bind="gotCamelComponent" unbind="lostCamelComponent" policy-option="greedy"/>
+    </scr:component>
+</components>

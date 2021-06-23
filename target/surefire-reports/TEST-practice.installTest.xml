@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="practice.installTest" time="1.885" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\maven\practice maven\zomato\zomato\target\test-classes;D:\maven\practice maven\zomato\zomato\target\classes;C:\Users\rupan\.m2\repository\org\apache\camel\camel-core\2.15.0\camel-core-2.15.0.jar;C:\Users\rupan\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-core-2.2.11.jar;C:\Users\rupan\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-impl-2.2.11.jar;C:\Users\rupan\.m2\repository\org\apache\camel\camel-scr\2.15.0\camel-scr-2.15.0.jar;C:\Users\rupan\.m2\repository\org\apache\camel\camel-core-osgi\2.15.0\camel-core-osgi-2.15.0.jar;C:\Users\rupan\.m2\repository\org\apache\felix\org.apache.felix.framework\3.2.2\org.apache.felix.framework-3.2.2.jar;C:\Users\rupan\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.9.8\org.apache.felix.scr.annotations-1.9.8.jar;C:\Users\rupan\.m2\repository\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;C:\Users\rupan\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\rupan\.m2\repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar;C:\Users\rupan\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\rupan\.m2\repository\org\apache\camel\camel-test\2.15.0\camel-test-2.15.0.jar;C:\Users\rupan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\rupan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\rupan\AppData\Local\Temp\surefire2230179837013572583\surefirebooter4298510542238712823.jar C:\Users\rupan\AppData\Local\Temp\surefire2230179837013572583 2021-06-24T02-06-00_096-jvmRun1 surefire2223716905206638884tmp surefire_05020312384696604473tmp"/>
+    <property name="surefire.test.class.path" value="D:\maven\practice maven\zomato\zomato\target\test-classes;D:\maven\practice maven\zomato\zomato\target\classes;C:\Users\rupan\.m2\repository\org\apache\camel\camel-core\2.15.0\camel-core-2.15.0.jar;C:\Users\rupan\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-core-2.2.11.jar;C:\Users\rupan\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-impl-2.2.11.jar;C:\Users\rupan\.m2\repository\org\apache\camel\camel-scr\2.15.0\camel-scr-2.15.0.jar;C:\Users\rupan\.m2\repository\org\apache\camel\camel-core-osgi\2.15.0\camel-core-osgi-2.15.0.jar;C:\Users\rupan\.m2\repository\org\apache\felix\org.apache.felix.framework\3.2.2\org.apache.felix.framework-3.2.2.jar;C:\Users\rupan\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.9.8\org.apache.felix.scr.annotations-1.9.8.jar;C:\Users\rupan\.m2\repository\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;C:\Users\rupan\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\rupan\.m2\repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar;C:\Users\rupan\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\rupan\.m2\repository\org\apache\camel\camel-test\2.15.0\camel-test-2.15.0.jar;C:\Users\rupan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\rupan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rupan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="D:\maven\practice maven\zomato\zomato"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\rupan\AppData\Local\Temp\surefire2230179837013572583\surefirebooter4298510542238712823.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="rupan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\rupan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rupan\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="D:\maven\practice maven\zomato\zomato"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_291\bin;E:\wall papers\apache-maven-3.8.1-bin (1)\apache-maven-3.8.1\bin;C:\Users\rupan\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testRoutes" classname="practice.installTest" time="1.7">
+    <system-out><![CDATA[[                          main] installTest                    INFO  *******************************************************************
+[                          main] installTest                    INFO  Test: testRoutes
+[                          main] installTest                    INFO  *******************************************************************
+[                          main] install                        DEBUG Added 12 initial properties
+[                          main] install                        DEBUG Configuring practice.install
+[                          main] install                        DEBUG Skipped field COMPONENT_LABEL
+[                          main] install                        DEBUG Skipped field COMPONENT_DESCRIPTION
+[                          main] install                        DEBUG Skipped field COMPONENT_LABEL
+[                          main] install                        DEBUG Skipped field COMPONENT_DESCRIPTION
+[                          main] install                        DEBUG Skipped field START_DELAY
+[                          main] install                        DEBUG Skipped field PROPERTY_PREFIX
+[                          main] install                        DEBUG Skipped field START_DELAY
+[                          main] install                        DEBUG Skipped field PROPERTY_PREFIX
+[                          main] install                        DEBUG Skipped field log
+[                          main] install                        DEBUG Skipped field context
+[                          main] install                        DEBUG Skipped field registry
+[                          main] install                        DEBUG Configured field camelContextId with value zomato
+[                          main] install                        DEBUG Configured field active with value true
+[                          main] install                        DEBUG Skipped field executor
+[                          main] install                        DEBUG Skipped field starter
+[                          main] install                        DEBUG Skipped field activated
+[                          main] install                        DEBUG Skipped field started
+[                          main] install                        DEBUG Configuring practice.internal.installRoute
+[                          main] install                        DEBUG Skipped field registry
+[                          main] install                        DEBUG Configured field camelRouteId with value foo/timer-log
+[                          main] install                        DEBUG Configured field maximumRedeliveries with value 0
+[                          main] install                        DEBUG Configured field redeliveryDelay with value 5000
+[                          main] install                        DEBUG Configured field backOffMultiplier with value 2
+[                          main] install                        DEBUG Configured field maximumRedeliveryDelay with value 60000
+[                          main] DefaultTypeConverter           INFO  Loaded 182 type converters
+[                          main] AdviceWithTasks                INFO  AdviceWith replace input from [timer:foo?period=5000] --> [direct:start]
+[                          main] RouteDefinition                INFO  AdviceWith route after: Route(foo/timer-log)[[From[direct:start]] -> [onCompletion[[To[direct:processCompletion]]], RemoveHeaders[CamelHttp*], To[{{to}}]]]
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.15.0 (CamelContext: zomato) is starting
+[                          main] DefaultCamelContext            INFO  MDC logging is enabled on CamelContext: zomato
+[                          main] DefaultManagementStrategy      INFO  JMX is disabled
+[                          main] ceptSendToMockEndpointStrategy INFO  Adviced endpoint [log://foo?showHeaders=true] with mock endpoint [mock:log:foo]
+[                          main] DefaultCamelContext            INFO  AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+[                          main] DefaultCamelContext            INFO  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[                          main] DefaultCamelContext            INFO  Route: foo/timer-log.completion started and consuming from: Endpoint[direct://processCompletion]
+[                          main] DefaultCamelContext            INFO  Route: foo/timer-log started and consuming from: Endpoint[direct://start]
+[                          main] DefaultCamelContext            INFO  Total 2 routes, of which 2 is started.
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.15.0 (CamelContext: zomato) started in 0.221 seconds
+[                          main] foo                            INFO  Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-DESKTOP-I34MJDM-4072-1624480570943-0-1, CamelInterceptedEndpoint=log://foo?showHeaders=true}, BodyType: String, Body: hello]
+[                          main] completion                     INFO  Success: timer:foo?period=5000 -> log:foo?showHeaders=true
+[                          main] MockEndpoint                   INFO  Asserting: Endpoint[mock://log:foo] is satisfied
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.15.0 (CamelContext: zomato) is shutting down
+[                          main] DefaultShutdownStrategy        INFO  Starting to graceful shutdown 2 routes (timeout 300 seconds)
+[mato) thread #0 - ShutdownTask] DefaultShutdownStrategy        INFO  Route: foo/timer-log shutdown complete, was consuming from: Endpoint[direct://start]
+[mato) thread #0 - ShutdownTask] DefaultShutdownStrategy        INFO  Route: foo/timer-log.completion shutdown complete, was consuming from: Endpoint[direct://processCompletion]
+[                          main] DefaultShutdownStrategy        INFO  Graceful shutdown of 2 routes completed in 0 seconds
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.15.0 (CamelContext: zomato) uptime 0.257 seconds
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.15.0 (CamelContext: zomato) is shutdown in 0.007 seconds
+]]></system-out>
+  </testcase>
+</testsuite>

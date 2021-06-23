@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/practice.install">
+    <OCD id="practice.install" name="%practice.install.name" description="%practice.install.description">
+        <AD id="camelContextId" type="String" default="zomato" name="%practice.install.camelContextId.name" description="%practice.install.camelContextId.description"/>
+        <AD id="camelRouteId" type="String" default="foo/timer-log" name="%practice.install.camelRouteId.name" description="%practice.install.camelRouteId.description"/>
+        <AD id="active" type="String" default="true" name="%practice.install.active.name" description="%practice.install.active.description"/>
+        <AD id="from" type="String" default="timer:foo?period=5000" name="%practice.install.from.name" description="%practice.install.from.description"/>
+        <AD id="to" type="String" default="log:foo?showHeaders=true" name="%practice.install.to.name" description="%practice.install.to.description"/>
+        <AD id="messageOk" type="String" default="Success:\ {{from}}\ -&gt;\ {{to}}" name="%practice.install.messageOk.name" description="%practice.install.messageOk.description"/>
+        <AD id="messageError" type="String" default="Failure:\ {{from}}\ -&gt;\ {{to}}" name="%practice.install.messageError.name" description="%practice.install.messageError.description"/>
+        <AD id="maximumRedeliveries" type="String" default="0" name="%practice.install.maximumRedeliveries.name" description="%practice.install.maximumRedeliveries.description"/>
+        <AD id="redeliveryDelay" type="String" default="5000" name="%practice.install.redeliveryDelay.name" description="%practice.install.redeliveryDelay.description"/>
+        <AD id="backOffMultiplier" type="String" default="2" name="%practice.install.backOffMultiplier.name" description="%practice.install.backOffMultiplier.description"/>
+        <AD id="maximumRedeliveryDelay" type="String" default="60000" name="%practice.install.maximumRedeliveryDelay.name" description="%practice.install.maximumRedeliveryDelay.description"/>
+    </OCD>
+    <Designate pid="practice.install">
+        <Object ocdref="practice.install"/>
+    </Designate>
+</metatype:MetaData>
